@@ -1,0 +1,423 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    
+}
+p{
+    color: black;       
+}
+h1,h2,h3,h4,h5{
+    color: black;
+    
+}
+label{
+    color: black;
+    
+}
+.image {
+		border: 0;
+		position: relative;
+	}
+
+		.image:before {
+			background: url("img/overlay.png");
+			content: '';
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+
+		.image.fit {
+			display: block;
+		}
+
+			.image.fit img {
+				display: block;
+				width: 100%;
+			}
+
+		.image.featured {
+			display: block;
+			margin: 0 0 2em 0;
+		}
+
+			.image.featured img {
+				display: block;
+				width: 100%;
+			}
+                        
+#banner{               
+		/*background-attachment: scroll, scroll, scroll, fixed;
+		background-color: #645862;*/
+		background: url("img/fondoPrincipal.jpg");
+                background-size: 100%;
+                filter: grayscale(0%);
+                /*background-position-y: 100%;*/
+                background-repeat: no-repeat;
+		/*background-position: bottom left, bottom right, top left, top center;
+		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		background-size: 25em, 25em, auto, cover;
+		*/color: #fff;
+		cursor: default;              
+		/*padding: 6em 0;*/
+                padding: 150px;
+		text-align: center;
+	}
+
+		/*#banner .inner {
+			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+			animation: reveal-banner 1s 0.25s ease-in-out;
+			-moz-animation-fill-mode: forwards;
+			-webkit-animation-fill-mode: forwards;
+			-ms-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
+			background: rgba(52, 27, 43, 0.5);
+			color: #fff;
+			display: inline-block;
+			opacity: 0;
+			padding: 3em;
+			text-align: center;
+		}
+
+			#banner .inner header {
+				display: inline-block;
+				border-bottom: solid 2px;
+				border-top: solid 2px;
+				margin: 0 0 2em 0;
+				padding: 3px 0 3px 0;
+			}
+
+				#banner .inner header h2 {
+					border-bottom: solid 2px;
+					border-top: solid 2px;
+					font-size: 2.5em;
+					font-weight: 900;
+					letter-spacing: 0.2em;
+					margin: 0;
+					padding-left: 0.05em;
+					position: relative;
+					text-transform: uppercase;
+				}
+
+			#banner .inner p {
+				letter-spacing: 0.1em;
+				margin: 0;
+				text-transform: uppercase;
+			}
+
+				#banner .inner p a {
+					color: inherit;
+					font-weight: 400;
+					text-decoration: none;
+				}*/
+
+#main{
+		/*background-attachment: scroll, scroll, scroll, fixed;*/
+		background-color: #E8EEF4;
+		/*background-image: url("images/overlay.png");*/
+		/*background-position: bottom left, bottom right, top left, top center;
+		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		background-size: 25em, 25em, auto, cover;
+		color: #fff;
+		cursor: default;*/
+		padding: 80px;
+                padding-bottom: 400px;
+                
+		/*text-align: center;*/
+	}
+        
+#ubigeo{
+		/*background-attachment: scroll, scroll, scroll, fixed;*/
+		background-color: #C8C8C8;
+                
+		/*background-image: url("images/overlay.png");*/
+		/*background-position: bottom left, bottom right, top left, top center;
+		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		background-size: 25em, 25em, auto, cover;*/
+		/*color: #fff;*/
+		/*cursor: default;*/
+		padding: 50px;
+                padding-bottom: 50px;
+                /*text-align: center;*/
+	}
+        
+#Contactos{
+		/*background-attachment: scroll, scroll, scroll, fixed;*/
+		background-color: #E8EEF4;
+                
+		/*background-image: url("images/overlay.png");*/
+		/*background-position: bottom left, bottom right, top left, top center;
+		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		background-size: 25em, 25em, auto, cover;*/
+		/*color: #fff;*/
+		/*cursor: default;*/
+		padding: 50px;
+                padding-bottom: 350px;
+                /*text-align: center;*/
+	}
+
+#footer{
+		background-attachment: scroll, scroll, scroll, fixed;
+		background-color: #F3F6FA;
+		/*background-image: url("images/overlay.png");*/
+		background-position: bottom left, bottom right, top left, top center;
+		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		background-size: 25em, 25em, auto, cover;
+		color: #fff;
+		cursor: default;                
+		padding: 6em 0;
+		text-align: center;
+	}
+        
+/*#header{
+		background-attachment: scroll, scroll, scroll, fixed;
+		background-color: #E8EEF4;
+		/*background-image: url("images/overlay.png");
+		background-position: bottom left, bottom right, top left, top center;
+		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+		background-size: 25em, 25em, auto, cover;               
+		color: #fff;
+		cursor: default;
+                padding: 20px 0;
+		/*padding: 6em 0;
+		text-align: center;
+	}*/
+
+/* PARA EL MENU FIJO*/
+#header {
+  background: rgba(0,0,0,0.9);
+  width: 100%; 
+  position: fixed;
+  z-index: 100;
+}
+
+
+nav {
+  float: right; /* Desplazamos el nav hacia la izquierda */
+}
+ 
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+ 
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+ 
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+ 
+nav ul li:hover {
+  background: #3ead47;
+}	
+
+
+/*PARA BANNER*/
+.inner footer ul {
+    list-style: none;
+    
+}
+
+.inner footer ul li a{
+    text-decoration: none;
+    
+}
+
+/* PARA EL BANNER */
+
+.inner {
+        width:330px;
+        background:white;
+        height: 300px;
+        color: #59584B;
+        border: 1px solid;
+        border-radius: 6px;
+        padding: 25px;
+        margin: auto;    
+}
+
+.inner header{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;  
+    font-size: 25px;
+    font-family: cursive;
+    
+}
+
+.inner p {
+    color: black;
+    text-align: center;
+    text-transform: none;
+    padding: 5px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-family: arial;    
+}
+
+.inner footer ul {
+    padding-top: 15px;
+    text-align: center;    
+    padding-bottom: 20px;
+}
+
+.inner footer ul label{
+    font-size: 25px;
+    font-family: arial;
+    
+}
+.txtfield{
+    width: auto;
+    height: 25px;
+    border-radius: 2px; 
+}
+
+.inner footer a {
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+    color: #244658;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 8px 15px;
+    display: inline-block;
+    text-decoration: none; 
+    
+}
+.inner footer  a:hover{
+    background-color: #244658;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+/*SECCION AND ARTICULOS*/
+.contenedor-section {
+    width: 31.5%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+.contenedor-section p {
+    color: #524c56;
+    font-size: 160%;
+    line-height: 155%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+}
+
+h3 {
+    font-size: 175%;
+    line-height: 155%;
+    font-weight: 500;
+    color: #524c56;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+}
+
+/*PARA UBICACION*/
+
+
+.articulo2 {
+    width: 100%;
+    
+    padding: 10px;
+    
+}
+.articulo2 p {
+   color: #524c56;
+    font-size: 160%;
+    line-height: 155%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: center;
+}
+.contenido-ubigeo iframe{
+    width: 100%;
+    
+    
+    
+}
+
+/*Contactanos*/
+
+.contenedor-formulario{
+           
+    
+   
+    
+}
+
+.formulario{
+    width: 300px;
+    padding: 15px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 6px;
+  
+    
+}
+.lbl{
+    color: #524c56;
+    font-size: 100%;
+    padding-bottom: 10px;
+       
+}
+.txt{
+    
+    outline: none;
+    width: 100%;
+    height: 25px;
+    border-radius: 2px; 
+    
+}
+.formulario select{
+    outline: none;
+    width: 100%;
+    height: 25px;
+    border-radius: 2px;
+    
+}
+
+.formulario a {
+    
+    
+    font-family: arial;
+    font-size: 15px;
+    color: #244658;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 8px 15px;
+    display: inline-block;
+    text-decoration: none; 
+    
+}
+.formulario  a:hover{
+    background-color: #244658;
+    color: white;
+    text-decoration: none;
+    
+}

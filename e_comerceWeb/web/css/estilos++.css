@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+iframe{
+    text-align:  center;
+}
+body{
+    font-family: 'lato';
+    font-size: 16px;
+    background: white;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+header{
+    width: auto;
+    height: 510px;
+    background-image: url(../img/001.png);        
+    background-repeat: no-repeat;
+    background-position: center;    
+    
+}
+.cont1{
+    padding-bottom:  18px;
+    
+}
+.contenedor-menu .menu {
+    background: antiquewhite;
+    padding: 25px;
+    text-align: right;
+    padding-right: 25px; 
+    
+}
+.contenedor-menu .menu a{
+    padding-right: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
+
+.contenedor-menu .menu a:hover{
+    text-decoration: underline;
+    color: #15a4fa;
+
+}
+
+header .contenedor-textos-header{
+    margin: 150px 0; /*150 arriba abajo y 0 costados*/
+    text-align: center;
+    color: white;
+}
+
+header .contenedor-textos-header .titulo-header{
+    font-size: 80px;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: -70px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+header .contenedor-textos-header .linea{
+    width: 600px;
+    margin: auto;
+    height: 3px;
+    background: #15a4fa;
+
+}
+header .contenedor-textos-header .subtitulo-header{
+    font-size: 28px;
+    color: white;
+    font-weight: 300;/*letras delgadas*/
+    margin-bottom: 20px;
+
+}
+header .contenedor-textos-header .opc-header{
+    display: inline-block;
+    padding: 15px 0;
+    border: 1px solid #15a4fa;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+header .contenedor-textos-header .opc-header:hover{
+    background: #15a4fa;
+    color: white;
+
+}
+/*PARTE 2 SECCION*/
+.contenedor-section{
+    padding-top: 18px;
+    background: antiquewhite;
+    padding: 30px 0;    
+
+}
+
+main .articulo1 img{
+    padding: 10px;    
+    width: 100px;
+    height: 70px; 
+}
+main .articulo1 .icon h3{
+    font-size: 20px;
+    padding-bottom:  10px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+main .articulo1 .icon p{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: arial;
+
+}
+.contenedor-iconos{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;       
+}
+/*SECCION 2*/
+
+main .mini-catalogo{
+    margin-top: 18px;
+    background: #E0D9D7;
+    padding: 60px 0;
+
+}
+
+main .articulo2 h3,p {
+    text-align: center;
+
+}
+main .articulo2 .contenido-catalogo h3{
+    font-weight: normal;
+    font-size: 28px;
+    margin-bottom: 20px; 
+
+}
+
+main .articulo2 .contenido-catalogo p{
+    font-family:  arial;
+    font-weight: normal;    
+    margin-bottom: 60px;  
+
+}
+
+main .articulo2 {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;      
+    justify-content: space-between;
+    
+}
+main .articulo2 .contenido-catalogo img{    
+    width: 33%;
+    height: auto;    
+    margin: 10px;
+    padding-bottom:  30px;    
+    margin-top:  -25px;
+    border-radius: 5px;    
+
+}
+main .articulo2 .contenido-catalogo img:hover{
+    opacity: 0.6;
+    
+}
+
+/*PARTE 3 FOOTER*/
+
+footer{
+    display: flex;
+    padding-top:  18px;
+    
+}
+
+.contenedor-all-footer .contenedor-text {
+    
+    padding-bottom: 25px;
+    text-align: center;
+    
+    
+}
+.contenedor-all-footer .contenedor-text a {
+    padding: 10px;  
+    text-decoration: none;
+    font-size: 20px;
+    font-family: arial;
+}
+.contenedor-all-footer .contenedor-text a:hover{
+    
+    text-decoration: underline;
+    color: #15a4fa;
+    
+    
+}
+
+
+/*parte footer con img*/
+.contenedor-all-footer{
+    padding: 60px;
+    background: antiquewhite;
+    
+}
+.contenedor-all-footer  .footer-icons .contenedor-iconos{
+    display: inline-block;
+    text-align: center;    
+}
+
+.contenedor-all-footer .footer-icons a img{
+    padding: 10px;
+    width: 10%;  
+    
+}
+.contenedor-all-footer .footer-icons a img:hover{
+    opacity: 0.5;
+}
+
+/*parte copyrigth*/
+
+
+.contenedor-all-footer .copy{
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+}
